@@ -2,7 +2,7 @@
 name: "[Realcost] Bug or Issue report"
 about: Report of a problem or bug with the RealCost application
 title: "[Realcost] "
-labels: 'app/Realcost'
+labels: 'app/Realcost,bug'
 assignees: 'xtitter'
 
 ---
