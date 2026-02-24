@@ -1,0 +1,43 @@
+name: "SPF"
+description: "Report a problem or suggest an improvement for the SPF app"
+title: "[SPF] "
+labels: ["app/SPF"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of feedback is this?
+      options:
+        - Something isn't working (Bug)
+        - I'd like something new or changed (Feature request)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Tell us what's going on
+      description: Describe the problem you ran into or the improvement you'd like to see.
+      placeholder: "Example: When I click Save, nothing happens and the page freezes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see this?
+      description: If something isn't working, walk us through what you did so we can try it ourselves.
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. I see ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: A picture is worth a thousand words — drag and drop any screenshots here.
+    validations:
+      required: false
