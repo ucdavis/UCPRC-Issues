@@ -1,7 +1,7 @@
 name: "Pavement Smoothness"
 description: "Report a problem or suggest an improvement for the Pavement Smoothness app"
 title: "[Pavement Smoothness] "
-labels: ["app/PavementSmoothness"]
+labels: ["app/Smoothness"]
 body:
   - type: dropdown
     id: type
